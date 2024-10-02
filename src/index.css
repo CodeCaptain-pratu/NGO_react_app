@@ -38,7 +38,7 @@
   /* position: fixed; */
   /* top:0; */
 }
-.navbar li a:hover {
+.navbar li .normal:hover {
   color: blue;
   background-color: #fff;
 }
@@ -72,6 +72,7 @@
   text-align: center;
   color:#fff;
 }
+
 /* Media queries navbar */
 @media (max-width: 768px) {
   .bars {
@@ -92,10 +93,26 @@
   background-size: cover;
   background-attachment: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:1rem;
   font-size: 2.4rem;
   color: #111;
+}
+.support
+{
+  border: none;
+  background-color: #0bd92ded;
+  padding: 1rem;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color:#fff;  
+  transition: 0.3s;
+}
+.support:hover{
+  background-color:yellow;
+  color:#111;
 }
 /* Media queries for main-section */
 @media (max-width: 768px) {

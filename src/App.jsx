@@ -23,10 +23,11 @@ function App() {
       <div className="navbar">
         <div className="logo">Live life</div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" className='normal'>Home</a></li>
+          <li><a href="#" className='normal'>About</a></li>
+          <li><a href="#" className='normal'>Blog</a></li>
+          <li><a href="#" >Contact</a></li>
+         
         </ul>
         <div className="bars" onClick={toggleMenu}>
           <FaBars/>
@@ -37,13 +38,16 @@ function App() {
         <a href="#">About</a>
         <a href="#">Blog</a>
         <a href="#">Contact</a>
+      
       </div> 
       <div className="main-section">
             <h1>Spread Happiness Everywhere.</h1>
+            <button className='support'>Support</button>
       </div>
      <div className="info-wrapper">
      <div className="info-section">
         <p>At Live Life Foundation, we are dedicated to creating a brighter future for underprivileged communities through education, empowerment, and sustainable development. Our mission is to uplift lives by providing access to quality education, promoting better livelihood opportunities, and fostering social awareness. We believe that every individual has the potential to make a difference, and through our various programs, we strive to unlock that potential. From educational initiatives to health and wellness campaigns, we work tirelessly to bridge the gap between privilege and poverty. By fostering a spirit of compassion and collective responsibility, we aim to create a world where no one is left behind. Join us on this journey to spread happiness, build resilient communities, and empower individuals to lead a dignified and fulfilling life. Together, we can create a ripple effect of positive change that transforms lives for generations to come.</p>
+        
       </div>
      </div>
       <div className="social-section">
