@@ -71,7 +71,6 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="cycle"></div>
       <div className="contact-heading">
           <h1>Get in Touch</h1>
       </div>
